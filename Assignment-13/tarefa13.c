@@ -61,7 +61,7 @@ int main (void)
 		}
 	}
 	printf("\n --------------------- [ MAIOR MÉDIA ENCONTRADA ] --------------- \n ");
-	printf("O jogador [ %d ] apresentou a média de : [ %d ] pontos ", jogador,maior_valor/5);
+	printf("O jogador [ %d ] apresentou a média de : [ %.02f ] pontos ", jogador, (float) maior_valor/5);
 			
 }
 
