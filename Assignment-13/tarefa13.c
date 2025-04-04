@@ -53,7 +53,7 @@ int main (void)
 	int jogador;
 	for (int m = 0; m <sizeof(pontuacao)/sizeof(int); m ++ )
 	{
-		if (maior_valor < pontuacao[m]);
+		if (maior_valor < pontuacao[m])
 		{
 			maior_valor = pontuacao[m];
 			jogador = m + 1;
