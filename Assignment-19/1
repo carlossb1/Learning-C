@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int allocate_memory(*ptr,size)
+{
+	char *ptr = (char *) malloc(sizeof(size));
+
+
+	if (ptr == NULL)
+	{
+		printf("Error alocating memory");
+			exit(0);
+
+	
+	}
+}
+
+int main (void)
+{
+	char *dummy;
+
+	allocate_memory(dummy,2);
+
+}
+
+
+
+
